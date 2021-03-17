@@ -1,0 +1,44 @@
+
+body {
+    background-color: black;
+}
+
+#smallrectangle {
+    width: 7rem;
+    height: 5rem;
+    background: rgb(49, 47, 47);
+    margin: auto;
+}
+
+#bigrectangle {
+    width: 15rem;
+    height: 35rem;
+    background: rgb(49, 47, 47);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+.light {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: auto;
+}
+
+  #redcircle {
+    background: red;
+  }
+
+  #yellowcircle {
+    background: rgb(246, 250, 6);
+  }
+
+  #greencircle {
+    background: rgb(77, 194, 54);
+  }
+
+  .green:hover {
+      box-shadow: 0 0 1.5em 1em rgb(125, 248, 125);
+  }
